@@ -1,13 +1,16 @@
 import "./index.css";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import MovieList from "./components/MovieList";
 
 function App() {
   return (
     <>
     <Navigation>
-        <h1>Movie Watchlist</h1>
       </Navigation>
+      <main>
+        <MovieList />
+      </main>
       <Footer />
     </>
   );
