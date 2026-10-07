@@ -53,9 +53,9 @@ const movies = [
 ];
 
 return (
-    <>
     <section>
         <h2>Movie List</h2>
+        <div className="movie-list">
         {movies.map((movie, index) => (
             <MovieCard
                 key={index}
@@ -64,8 +64,8 @@ return (
                 releaseYear={movie.year}
             />
         ))}
+    </div>
     </section>
-    </>
 )
 };
 
