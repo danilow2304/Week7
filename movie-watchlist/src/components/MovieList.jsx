@@ -53,6 +53,7 @@ const movies = [
 ];
 
 return (
+    <>
     <section>
         <h2>Movie List</h2>
         {movies.map((movie, index) => (
@@ -64,6 +65,7 @@ return (
             />
         ))}
     </section>
+    </>
 )
 };
 
